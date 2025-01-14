@@ -1,7 +1,7 @@
 import time
 import datetime
 import os
-import psutil    # --> pip install psutil
+import psutil  
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 file_path = os.path.join(dir_path, 'restart_log.txt')
